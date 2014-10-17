@@ -1,0 +1,9 @@
+#navbar{
+    text-align:center
+    ;
+}
+
+#navbar li{
+    display:inline;
+    font-size:25px;
+}
