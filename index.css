@@ -1,9 +1,37 @@
 #navbar {
     display:inline-block;
     font-size:20px;
-    color:black;
-    width:120px;
-    height:180px;
-    border:2px solid black;
-    margin:45px 45px 5px 10px
+   background-color:gray;
+    width:600px;
+    height:60px;
+    border:5px solid black;
+    margin-right:500px;
+    position:fixed;
+   color:black;
+   border-radius:10px;
+   font:black;
+   float:top;
 }
+#navbar-link{color :black;
+    font:black
+}
+img{-webkit-animation: spin 3s infinite linear;
+    animation: spin 3s infinite linear;margin-top:200px;}
+    @-webkit-keyframes spin {
+    100% { -webkit-transform: rotate(180deg); }
+}
+@-moz-keyframes spin {
+    100% { -moz-transform: rotate(180deg); }
+}
+@keyframes spin {
+    100% {
+        -moz-transform:rotate(180deg);
+        -o-transform:rotate(180deg);
+        transform:rotate(180deg);
+    }
+}
+#one{height:80px;width:100px;border:2px solid black;font-size:22px;font-family:verdana;background-color:#3399CC;display:inline}
+#two{height:80px;width:100px;border:2px solid black;font-size:22px;font-family:verdana;background-color:#3399CC;display:inline}
+#three{height:100px;width:100px;border:2px solid black;font-size:22px;font-family:verdana;background-color:#3399CC;display:inline}
+#four{height:80px;width:100px;border:2px solid black;font-size:20px;font-family:verdana;background-color:#3399CC;display:inline}
+#div{margin:200px 200px 200px 200px;}
