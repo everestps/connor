@@ -5,7 +5,8 @@
     width:600px;
     height:60px;
     border:5px solid black;
-    margin-right:500px;
+    margin-right:100px;
+    margin-top:20px;
     position:fixed;
    color:black;
    border-radius:10px;
@@ -17,4 +18,10 @@
 #three{height:100px;width:100px;border:2px solid black;font-size:22px;font-family:verdana;background-color:#3399CC;display:inline}
 #four{height:80px;width:100px;border:2px solid black;font-size:20px;font-family:verdana;background-color:#3399CC;display:inline}
 #div{margin:200px 200px 200px 200px;}
-#toe{
+ul{border:5px solid black;background-color:gray;margin:5px 5px 5px 5px;border-radius:10px;}
+h1{text-shadow: 2px 2px 2px #CC3300;}
+a:hover{color:red;  text-decoration:none;}
+#navbar div{text-decoration:none;list-style-type:none;}
+a{color:black;text-decoration:none;}
+body{border:10px solid #5C5858;}
+p{border:5px solid black;background-color:gray;margin:5px 5px 5px 5px;border-radius:10px;}
